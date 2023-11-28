@@ -1,0 +1,178 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% block content %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!--<link rel="{% static 'images/logo.jpg' %}" href="/logo.jpg">-->
+
+        <title>Humaun dignity for Yemen</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/dashboard/">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'images/logo.jpg' %}" alt="Logo" width="100" height="50">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Who are we</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">What we do</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our netourk</a>
+                </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Welcome {{ request.user.username }} </a>
+                    </li>
+                    <li class="nav-item divider">|</li>
+                    <li class="nav-item dropdown">
+                        <img src="{% static 'images/utilisateur.png' %}" width="20" height="20" style="margin-top: 14px; margin-left: 15px;" class="img dropdown-toggle" type="button" data-toggle="dropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{% url 'logout' %}">Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="container-fluid bg-dark text-white"></div>
+            <div class="row">
+                <div class="col-lg-12 background-section">
+                    <h1>Human Dignity For Yemen</h1>
+                    <h2>No to cruel, inhuman<br>or degrading punishment</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-12">
+                        <div class="card-group">
+                            <div class="card" style="width: 100%; margin: 50%;">
+                                <img src="{% static 'images/img2.jpg' %}" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+                                <div class="card-body">
+                                <a href="#" class="card-link"><h3>Our partners</h3></a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 100%; margin: 50%;">
+                                <img src="{% static 'images/img3.jpg' %}" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+                                <div class="card-body">
+                                <a href="#" class="card-link"><h3>Scope of our interests</h3></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-12">
+                        <div class="card-group">
+                            <div class="card" style="width: 100%; margin: 50%;">
+                                <img src="{% static 'images/img4.jpg' %}" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+                                <div class="card-body">
+                                <a href="#" class="card-link"><h3>Our projects</h3></a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 100%; margin: 50%;">
+                                <img src="{% static 'images/img5.jpg' %}" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+                                <div class="card-body">
+                                <a href="#" class="card-link"><h3>Support and grants</h3></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-white mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-1">
+                                <img src="{% static 'images/logo.jpg' %}" alt="Logo" width="50" height="30" >
+                            </div>
+                            <div class="col-md-5">
+                                <p style="margin-left: 20px; margin-top: 20px;">HUMAN DIGNITY FOR YEMEN  2023</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-left">
+                            <div class="col-md-4">
+                                <p style="margin-left: 65px; margin-top: 5px;">Privecy Policy</p> 
+                            </div>
+                            <div class="col-md-2">
+                                <img src="{% static 'images/cpyr.png' %}" width="15" height="15" style=" margin-top: 6px;">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-1">
+                                <img src="{% static 'images/lieu.png' %}" width="20" height="20" >
+                            </div>
+                            <div class="col-md-5">
+                                <p style="margin-left: 20px; margin-top: 10px;">31 Furnival St, London EC4A 1JQ</p>
+                            </div>
+                        </div>
+                        <p style="margin-left: 65px;">London, United Kingdom</p>
+                        <div class="row align-items-center">
+                            <div class="col-md-1">
+                                <img src="{% static 'images/facebook.png' %}" width="20" height="20" style="margin-bottom: 5px";>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="{% static 'images/linkedin.png' %}" width="20" height="20" style="margin-bottom: 5px";>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="{% static 'images/twitter.png' %}" width="20" height="20" style="margin-bottom: 5px";>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <p style="margin-top: 20px;">WHO WE ARE</p>
+                        <p style="margin-top: 50px;">Governance</p>
+                        <p>Team</p>
+                        <p>Offices</p>
+                    </div>
+                    <div class="col-md-2">
+                        <p style="margin-top: 20px;">WHAT WE DO</p>
+                        <p style="margin-top: 50px;">Victim Support</p>
+                        <p>Seeking Justice</p>
+                        <p>Indigenous Peoples</p>
+                    </div>
+                    <div class="col-md-2">
+                        <p style="margin-top: 20px;">OUR NETWORK</p>
+                        <p style="margin-top: 50px;">Members</p>
+                        <p>Volunteers</p>
+                        <p>Share your story</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+{% endblock content %}
