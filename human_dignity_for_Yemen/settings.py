@@ -122,8 +122,8 @@ TEMPLATES = [
         },
     },
 ]
-os.environ['DJANGO_SETTINGS_MODULE'] = 'human_dignity_for_Yemen.settings'
-WSGI_APPLICATION = '.wsgi.application'
+
+WSGI_APPLICATION = 'human_dignity_for_Yemen.wsgi.application'
 
 
 # Database

@@ -12,6 +12,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'human_dignity_for_Yemen.settings')
+os.environ.setdefault['DJANGO_SETTINGS_MODULE'] = 'human_dignity_for_Yemen.settings'
 
 application = get_wsgi_application()
