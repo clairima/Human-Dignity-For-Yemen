@@ -5,10 +5,10 @@
 ## Introduction
 The "Human Dignity for Yemen" project is a web application developed as a volunteer effort to support a non-profit organization dedicated to promoting human rights in Yemen. The project focuses on creating a user-friendly platform that displays the organization's activities and facilitates user registration to ensure a useful user experience.
 
-- Deployed Site: [Human Dignity for Yemen](https://yourdeployedsite.com)
+- Deployed Site: [Human Dignity for Yemen](https://mertahrima.tech)
 - Final Project Blog Article: [Read Blog](https://linktoyourblog.com)
 - Author: Rima Mertah
-- Author's LinkedIn: [Rima Mertah LinkedIn](https://www.linkedin.com/in/rimamertah/)
+- Author's LinkedIn: [Rima Mertah LinkedIn](https://www.linkedin.com/in/rima-m-507609227)
 
 ## Installation
 To run the project locally, follow these steps:
