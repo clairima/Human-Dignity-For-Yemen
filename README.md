@@ -9,7 +9,7 @@ The "Human Dignity for Yemen" project is a web application developed as a volunt
 - Final Project Blog Article: [Read Blog](https://www.linkedin.com/posts/rima-m-507609227_unveiling-human-dignity-for-yemen-empowering-activity-7140804414352551936-KeFI?utm_source=share&utm_medium=member_desktop)
 - Source post : [GO TO My landing page](https://clairima.github.io/My-landing-page)
 - Author: Rima Mertah
-- Author's LinkedIn: [Rima Mertah LinkedIn](https://www.linkedin.com/in/rimamertah/)
+- Author's LinkedIn: [Rima Mertah LinkedIn](https://www.linkedin.com/in/rima-m-507609227)
 
 ## Installation
 To run the project locally, follow these steps:
